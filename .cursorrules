@@ -1,0 +1,39 @@
+# Cursor Rules for XooStation
+
+# Language and Framework Preferences
+prefer-language: JavaScript
+prefer-framework: React
+prefer-css: Tailwind CSS
+
+# Library Preferences
+prefer-drag-and-drop: react-dnd
+prefer-video-playback: video.js
+prefer-api-client: axios
+prefer-midi: midi
+prefer-qr-code: qrcode
+prefer-storage: electron-store
+
+# Coding Style
+use-functional-components: true
+use-hooks: true
+avoid-class-components: true
+use-es6: true
+prefer-arrow-functions: true
+
+# Project-Specific Rules
+# Always use Tailwind CSS for styling, never inline CSS or other frameworks
+when-styling: use Tailwind CSS
+avoid: inline CSS, styled-components, emotion
+
+# Prefer local state management over external libraries
+when-managing-state: use useState, useReducer
+avoid: redux, mobx
+
+# For API calls, cache results locally
+when-making-api-calls: cache results locally using the file system
+
+# For video output, prioritize Syphon for Mac and Spout for Windows
+when-handling-video-output: use Syphon for Mac, Spout for Windows
+
+# Always include error handling for API calls
+when-making-api-calls: include error handling with user-friendly messages
