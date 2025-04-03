@@ -3,7 +3,7 @@
 # Language and Framework Preferences
 prefer-language: JavaScript
 prefer-framework: React
-prefer-css: Tailwind CSS
+prefer-css: Vanilla CSS
 
 # Library Preferences
 prefer-drag-and-drop: react-dnd
@@ -22,8 +22,8 @@ use-es6: true
 prefer-arrow-functions: true
 
 # Project-Specific Rules
-# Always use Tailwind CSS for styling
-when-styling: use Tailwind CSS
+# Always use Vanilla CSS for styling
+when-styling: use Vanilla CSS
 avoid: inline CSS, styled-components, emotion
 
 # Prefer local state management

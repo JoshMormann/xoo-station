@@ -1,0 +1,21 @@
+.grid {
+  display: grid;
+  gap: $spacing-md;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+// For responsive grids
+@media (max-width: $breakpoint-md) {
+  .grid-cols-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: $breakpoint-sm) {
+  .grid-cols-3 {
+    grid-template-columns: 1fr;
+  }
+} 

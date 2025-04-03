@@ -1,0 +1,14 @@
+header {
+  background-color: $dark-surface;
+  padding: $spacing-md 0;
+  
+  h1 {
+    margin-bottom: 0;
+    font-size: $font-size-xl;
+  }
+  
+  nav {
+    display: flex;
+    gap: $spacing-md;
+  }
+} 

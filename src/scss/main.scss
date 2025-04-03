@@ -1,0 +1,17 @@
+@use "sass:color";
+
+// Import base styles
+@import 'base/variables';
+@import 'base/reset';
+@import 'base/typography';
+
+// Import layout styles
+@import 'layout/grid';
+@import 'layout/container';
+@import 'layout/header';
+@import 'layout/footer';
+
+// Import component styles
+@import 'components/buttons';
+@import 'components/cards';
+@import 'components/pads'; 

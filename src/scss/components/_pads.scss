@@ -1,0 +1,33 @@
+.pad {
+  background-color: $dark-surface;
+  border-radius: $radius-md;
+  padding: $spacing-md;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  
+  &--unassigned {
+    background-color: color.adjust($dark-surface, $lightness: -5%);
+    color: $dark-text-disabled;
+    box-shadow: none;
+  }
+  
+  &--assigned {
+    border: 1px solid $dark-primary;
+    box-shadow: $shadow-sm;
+    
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: $shadow-md;
+    }
+  }
+  
+  &--active {
+    background-color: $dark-primary;
+    color: white;
+    box-shadow: $shadow-md;
+  }
+} 

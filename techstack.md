@@ -3,7 +3,8 @@
 ## Framework
 - **Electron**: Cross-platform desktop app framework for Windows and Mac.
 - **React**: Frontend library for building the UI.
-- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Vanilla CSS**: Custom CSS with CSS variables for theming.
+- **Sass**: CSS preprocessor for advanced styling capabilities.
 
 ## Media Handling
 - **axios**: For querying APIs (YouTube, Giphy initially; Vimeo, Twitch as stretch goals).
