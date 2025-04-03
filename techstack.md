@@ -6,16 +6,16 @@
 - **Tailwind CSS**: Utility-first CSS framework for styling.
 
 ## Media Handling
-- **electron-fetch** or **axios**: For querying APIs (YouTube, Giphy, Vimeo, Twitch).
-- **video.js**: For video and GIF playback in the app.
+- **axios**: For querying APIs (YouTube, Giphy initially; Vimeo, Twitch as stretch goals).
+- **video.js**: For video and GIF playback in the Preview Grid and A/B Video Players.
 - **electron-dl**: For downloading and caching media locally.
 
 ## MIDI Integration
-- **midi**: Node.js library for MIDI input/output (Ableton Push 2).
+- **midi**: Node.js library for MIDI input/output (Ableton Push 2, stretch goal).
 
 ## Video Output
-- **Syphon** (Mac): For outputting video to external apps (e.g., VDMX, Resolume).
-- **Spout** (Windows): Alternative to Syphon for Windows.
+- **Syphon** (Mac): For outputting video to external apps (e.g., VDMX, Resolume, stretch goal).
+- **Spout** (Windows): Alternative to Syphon for Windows (stretch goal).
 
 ## QR Code and Credits
 - **qrcode**: Node.js library to generate QR codes for creator credits.
@@ -23,6 +23,9 @@
 ## Storage
 - **electron-store**: For saving settings (e.g., active services, log location).
 - Local file system for caching media.
+
+## Keyboard Shortcuts
+- **electron-global-shortcut**: For registering keyboard shortcuts ("A" and "B" to assign videos to pads).
 
 ## Development Tools
 - **Cursor**: AI-powered IDE for code generation and troubleshooting.
